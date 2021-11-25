@@ -1,0 +1,27 @@
+{
+  "name": "orlando-andrade",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "vite preview",
+    "build": "vue-tsc --noEmit && vite build",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "tslib": "^2.3.1",
+    "vue": "^3.2.16",
+    "vue-class-component": "8.0.0-rc.1"
+  },
+  "devDependencies": {
+    "@quasar/vite-plugin": "^1.0.2",
+    "@types/node": "^16.11.7",
+    "@vitejs/plugin-vue": "^1.8.0",
+    "quasar": "^2.3.1",
+    "sass": "1.32.0",
+    "sass-loader": "^10.1.0",
+    "typescript": "^4.4.3",
+    "vite": "^2.6.4",
+    "vue-cli-plugin-quasar": "~4.0.4",
+    "vue-tsc": "^0.3.0"
+  }
+}
